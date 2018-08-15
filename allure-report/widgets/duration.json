@@ -1,0 +1,41 @@
+[ {
+  "uid" : "3bda6ce634b0d387",
+  "name" : "Registration Page: Test Registration Page - Success",
+  "time" : {
+    "start" : 1534316521000,
+    "stop" : 1534316528254,
+    "duration" : 7254
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "2e90f6aa18d5820e",
+  "name" : "Registration Page: Test Registration Page - Check for Invalid Field Validations",
+  "time" : {
+    "start" : 1534316521000,
+    "stop" : 1534316531072,
+    "duration" : 10072
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "62c8e3b2db887ff8",
+  "name" : "Registration Page: Test Registration Page - Check for Required Field Validations",
+  "time" : {
+    "start" : 1534316521000,
+    "stop" : 1534316530546,
+    "duration" : 9546
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6b96305b062ba0a6",
+  "name" : "Registration Page: Test Registration Page - Register Duplicate User",
+  "time" : {
+    "start" : 1534316521000,
+    "stop" : 1534316526875,
+    "duration" : 5875
+  },
+  "status" : "failed",
+  "severity" : "normal"
+} ]

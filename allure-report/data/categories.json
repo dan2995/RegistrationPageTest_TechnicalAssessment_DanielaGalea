@@ -1,0 +1,37 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "expected web page to include \"Logged in as: John Doe\"",
+      "children" : [ {
+        "name" : "Registration Page: Test Registration Page - Success",
+        "uid" : "3bda6ce634b0d387",
+        "parentUid" : "3fb30e55b8ec8d38d3013655d788c8c6",
+        "status" : "failed",
+        "time" : {
+          "start" : 1534316521000,
+          "stop" : 1534316528254,
+          "duration" : 7254
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Registration Page: Test Registration Page - Register Duplicate User",
+        "uid" : "6b96305b062ba0a6",
+        "parentUid" : "3fb30e55b8ec8d38d3013655d788c8c6",
+        "status" : "failed",
+        "time" : {
+          "start" : 1534316521000,
+          "stop" : 1534316526875,
+          "duration" : 5875
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "3fb30e55b8ec8d38d3013655d788c8c6"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

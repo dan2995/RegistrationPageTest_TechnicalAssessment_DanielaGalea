@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="32.747" tests="4" failures="2">
+  <testsuite name="Root Suite" timestamp="2018-08-15T09:02:01" tests="0" failures="0" time="0">
+  </testsuite>
+  <testsuite name="Registration Page" timestamp="2018-08-15T09:02:01" tests="4" file="C:\Users\Catania\Desktop\daniela_test\src\RegistrationPage_test.js" failures="2" time="32.747">
+    <testcase name="Registration Page: Test Registration Page - Success" time="7.254" classname="Test Registration Page - Success">
+      <failure message="expected web page to include &quot;Logged in as: John Doe&quot;" type="Error"><![CDATA[expected web page to include "Logged in as: John Doe"
+
+Scenario Steps:
+
+- I.see("Logged in as: John Doe") at Object.obj.(anonymous function).obj.(anonymous function) [as see] (C:\Users\Catania\AppData\Roaming\npm\node_modules\codeceptjs\lib\actor.js:28:26)
+- I.click("//a[@id='registerForm:registerButtonGDPR']") at Object.obj.(anonymous function).obj.(anonymous function) [as click] (C:\Users\Catania\AppData\Roaming\npm\node_modules\codeceptjs\lib\actor.js:28:26)
+- I.checkOption("//input[@id='registerForm:deutscheFootballLiga']") at Object.obj.(anonymous function).obj.(anonymous function) [as checkOption] (C:\Users\Catania\AppData\Roaming\npm\node_modules\codeceptjs\lib\actor.js:28:26)
+- I.checkOption("//input[@id='registerForm:dataProcessing']") at Object.obj.(anonymous function).obj.(anonymous function) [as checkOption] (C:\Users\Catania\AppData\Roaming\npm\node_modules\codeceptjs\lib\actor.js:28:26)
+- I.fillField("//input[@id='registerForm:phoneMobile']", "+35679797979") at Object.obj.(anonymous function).obj.(anonymous function) [as fillField] (C:\Users\Catania\AppData\Roaming\npm\node_modules\codeceptjs\lib\actor.js:28:26)
+- I.fillField("//input[@id='registerForm:zipCode']", "RBT") at Object.obj.(anonymous function).obj.(anonymous function) [as fillField] (C:\Users\Catania\AppData\Roaming\npm\node_modules\codeceptjs\lib\actor.js:28:26)
+- I.fillField("//input[@id='registerForm:city']", "Rabat") at Object.obj.(anonymous function).obj.(anonymous function) [as fillField] (C:\Users\Catania\AppData\Roaming\npm\node_modules\codeceptjs\lib\actor.js:28:26)
+- I.fillField("//input[@id='registerForm:street']", "20, Aloha") at Object.obj.(anonymous function).obj.(anonymous function) [as fillField] (C:\Users\Catania\AppData\Roaming\npm\node_modules\codeceptjs\lib\actor.js:28:26)
+- I.fillField("//input[@id='registerForm:birthCity']", "Rabat") at Object.obj.(anonymous function).obj.(anonymous function) [as fillField] (C:\Users\Catania\AppData\Roaming\npm\node_modules\codeceptjs\lib\actor.js:28:26)
+- I.selectOption("//select[@id='registerForm:birthCountry']", "Malta") at Object.obj.(anonymous function).obj.(anonymous function) [as selectOption] (C:\Users\Catania\AppData\Roaming\npm\node_modules\codeceptjs\lib\actor.js:28:26)
+- I.selectOption("//select[@id='registerForm:nationality']", "Malta") at Object.obj.(anonymous function).obj.(anonymous function) [as selectOption] (C:\Users\Catania\AppData\Roaming\npm\node_modules\codeceptjs\lib\actor.js:28:26)
+- I.selectOption("//select[@id='registerForm:day']", "2") at Object.obj.(anonymous function).obj.(anonymous function) [as selectOption] (C:\Users\Catania\AppData\Roaming\npm\node_modules\codeceptjs\lib\actor.js:28:26)
+- I.selectOption("//select[@id='registerForm:month']", "January") at Object.obj.(anonymous function).obj.(anonymous function) [as selectOption] (C:\Users\Catania\AppData\Roaming\npm\node_modules\codeceptjs\lib\actor.js:28:26)
+- I.selectOption("//select[@id='registerForm:year']", "1990") at Object.obj.(anonymous function).obj.(anonymous function) [as selectOption] (C:\Users\Catania\AppData\Roaming\npm\node_modules\codeceptjs\lib\actor.js:28:26)
+- I.fillField("//input[@id='registerForm:lastName']", "Doe") at Object.obj.(anonymous function).obj.(anonymous function) [as fillField] (C:\Users\Catania\AppData\Roaming\npm\node_modules\codeceptjs\lib\actor.js:28:26)
+- I.fillField("//input[@id='registerForm:firstName']", "John") at Object.obj.(anonymous function).obj.(anonymous function) [as fillField] (C:\Users\Catania\AppData\Roaming\npm\node_modules\codeceptjs\lib\actor.js:28:26)
+- I.checkOption("//input[@id='registerForm:salutation:1']") at Object.obj.(anonymous function).obj.(anonymous function) [as checkOption] (C:\Users\Catania\AppData\Roaming\npm\node_modules\codeceptjs\lib\actor.js:28:26)
+- I.fillField("//input[@id='registerForm:passwordConfirm']", "Password123") at Object.obj.(anonymous function).obj.(anonymous function) [as fillField] (C:\Users\Catania\AppData\Roaming\npm\node_modules\codeceptjs\lib\actor.js:28:26)
+- I.fillField("//input[@id='registerForm:password']", "Password123") at Object.obj.(anonymous function).obj.(anonymous function) [as fillField] (C:\Users\Catania\AppData\Roaming\npm\node_modules\codeceptjs\lib\actor.js:28:26)
+- I.fillField("//input[@id='registerForm:email']", "lllllllllllllllllll@test.com") at Object.obj.(anonymous function).obj.(anonymous function) [as fillField] (C:\Users\Catania\AppData\Roaming\npm\node_modules\codeceptjs\lib\actor.js:28:26)
+- I.fillField("//input[@id='registerForm:login']", "lllllllllllllllllll") at Object.obj.(anonymous function).obj.(anonymous function) [as fillField] (C:\Users\Catania\AppData\Roaming\npm\node_modules\codeceptjs\lib\actor.js:28:26)
+- I.selectOption("//select[@id='registerForm:country']", "Malta") at Object.obj.(anonymous function).obj.(anonymous function) [as selectOption] (C:\Users\Catania\AppData\Roaming\npm\node_modules\codeceptjs\lib\actor.js:28:26)
+
+]]></failure>
+    </testcase>
+    <testcase name="Registration Page: Test Registration Page - Register Duplicate User" time="5.875" classname="Test Registration Page - Register Duplicate User">
+      <failure message="expected web page to include &quot;Logged in as: John Doe&quot;" type="Error"><![CDATA[expected web page to include "Logged in as: John Doe"
+
+Scenario Steps:
+
+- I.see("Logged in as: John Doe") at Object.obj.(anonymous function).obj.(anonymous function) [as see] (C:\Users\Catania\AppData\Roaming\npm\node_modules\codeceptjs\lib\actor.js:28:26)
+- I.click("//a[@id='registerForm:registerButtonGDPR']") at Object.obj.(anonymous function).obj.(anonymous function) [as click] (C:\Users\Catania\AppData\Roaming\npm\node_modules\codeceptjs\lib\actor.js:28:26)
+- I.checkOption("//input[@id='registerForm:deutscheFootballLiga']") at Object.obj.(anonymous function).obj.(anonymous function) [as checkOption] (C:\Users\Catania\AppData\Roaming\npm\node_modules\codeceptjs\lib\actor.js:28:26)
+- I.checkOption("//input[@id='registerForm:dataProcessing']") at Object.obj.(anonymous function).obj.(anonymous function) [as checkOption] (C:\Users\Catania\AppData\Roaming\npm\node_modules\codeceptjs\lib\actor.js:28:26)
+- I.fillField("//input[@id='registerForm:phoneMobile']", "+35679797979") at Object.obj.(anonymous function).obj.(anonymous function) [as fillField] (C:\Users\Catania\AppData\Roaming\npm\node_modules\codeceptjs\lib\actor.js:28:26)
+- I.fillField("//input[@id='registerForm:zipCode']", "RBT") at Object.obj.(anonymous function).obj.(anonymous function) [as fillField] (C:\Users\Catania\AppData\Roaming\npm\node_modules\codeceptjs\lib\actor.js:28:26)
+- I.fillField("//input[@id='registerForm:city']", "Rabat") at Object.obj.(anonymous function).obj.(anonymous function) [as fillField] (C:\Users\Catania\AppData\Roaming\npm\node_modules\codeceptjs\lib\actor.js:28:26)
+- I.fillField("//input[@id='registerForm:street']", "20, Aloha") at Object.obj.(anonymous function).obj.(anonymous function) [as fillField] (C:\Users\Catania\AppData\Roaming\npm\node_modules\codeceptjs\lib\actor.js:28:26)
+- I.fillField("//input[@id='registerForm:birthCity']", "Rabat") at Object.obj.(anonymous function).obj.(anonymous function) [as fillField] (C:\Users\Catania\AppData\Roaming\npm\node_modules\codeceptjs\lib\actor.js:28:26)
+- I.selectOption("//select[@id='registerForm:birthCountry']", "Malta") at Object.obj.(anonymous function).obj.(anonymous function) [as selectOption] (C:\Users\Catania\AppData\Roaming\npm\node_modules\codeceptjs\lib\actor.js:28:26)
+- I.selectOption("//select[@id='registerForm:nationality']", "Malta") at Object.obj.(anonymous function).obj.(anonymous function) [as selectOption] (C:\Users\Catania\AppData\Roaming\npm\node_modules\codeceptjs\lib\actor.js:28:26)
+- I.selectOption("//select[@id='registerForm:day']", "2") at Object.obj.(anonymous function).obj.(anonymous function) [as selectOption] (C:\Users\Catania\AppData\Roaming\npm\node_modules\codeceptjs\lib\actor.js:28:26)
+- I.selectOption("//select[@id='registerForm:month']", "January") at Object.obj.(anonymous function).obj.(anonymous function) [as selectOption] (C:\Users\Catania\AppData\Roaming\npm\node_modules\codeceptjs\lib\actor.js:28:26)
+- I.selectOption("//select[@id='registerForm:year']", "1990") at Object.obj.(anonymous function).obj.(anonymous function) [as selectOption] (C:\Users\Catania\AppData\Roaming\npm\node_modules\codeceptjs\lib\actor.js:28:26)
+- I.fillField("//input[@id='registerForm:lastName']", "Doe") at Object.obj.(anonymous function).obj.(anonymous function) [as fillField] (C:\Users\Catania\AppData\Roaming\npm\node_modules\codeceptjs\lib\actor.js:28:26)
+- I.fillField("//input[@id='registerForm:firstName']", "John") at Object.obj.(anonymous function).obj.(anonymous function) [as fillField] (C:\Users\Catania\AppData\Roaming\npm\node_modules\codeceptjs\lib\actor.js:28:26)
+- I.fillField("//input[@id='registerForm:passwordConfirm']", "Password123") at Object.obj.(anonymous function).obj.(anonymous function) [as fillField] (C:\Users\Catania\AppData\Roaming\npm\node_modules\codeceptjs\lib\actor.js:28:26)
+- I.fillField("//input[@id='registerForm:password']", "Password123") at Object.obj.(anonymous function).obj.(anonymous function) [as fillField] (C:\Users\Catania\AppData\Roaming\npm\node_modules\codeceptjs\lib\actor.js:28:26)
+- I.fillField("//input[@id='registerForm:email']", "bbbbbbbbbb@test.com") at Object.obj.(anonymous function).obj.(anonymous function) [as fillField] (C:\Users\Catania\AppData\Roaming\npm\node_modules\codeceptjs\lib\actor.js:28:26)
+- I.fillField("//input[@id='registerForm:login']", "bbbbbbbbbb") at Object.obj.(anonymous function).obj.(anonymous function) [as fillField] (C:\Users\Catania\AppData\Roaming\npm\node_modules\codeceptjs\lib\actor.js:28:26)
+- I.selectOption("//select[@id='registerForm:country']", "Malta") at Object.obj.(anonymous function).obj.(anonymous function) [as selectOption] (C:\Users\Catania\AppData\Roaming\npm\node_modules\codeceptjs\lib\actor.js:28:26)
+
+]]></failure>
+    </testcase>
+    <testcase name="Registration Page: Test Registration Page - Check for Required Field Validations" time="9.546" classname="Test Registration Page - Check for Required Field Validations">
+    </testcase>
+    <testcase name="Registration Page: Test Registration Page - Check for Invalid Field Validations" time="10.072" classname="Test Registration Page - Check for Invalid Field Validations">
+    </testcase>
+  </testsuite>
+</testsuites>

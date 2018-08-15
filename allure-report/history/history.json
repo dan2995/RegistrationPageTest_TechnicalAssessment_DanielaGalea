@@ -1,0 +1,80 @@
+{
+  "Registration Page:Test Registration Page - Register Duplicate User#Registration Page: Test Registration Page - Register Duplicate User" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "6b96305b062ba0a6",
+      "status" : "failed",
+      "statusDetails" : "expected web page to include \"Logged in as: John Doe\"",
+      "time" : {
+        "start" : 1534316521000,
+        "stop" : 1534316526875,
+        "duration" : 5875
+      }
+    } ]
+  },
+  "Registration Page:Test Registration Page - Success#Registration Page: Test Registration Page - Success" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "3bda6ce634b0d387",
+      "status" : "failed",
+      "statusDetails" : "expected web page to include \"Logged in as: John Doe\"",
+      "time" : {
+        "start" : 1534316521000,
+        "stop" : 1534316528254,
+        "duration" : 7254
+      }
+    } ]
+  },
+  "Registration Page:Test Registration Page - Check for Invalid Field Validations#Registration Page: Test Registration Page - Check for Invalid Field Validations" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "2e90f6aa18d5820e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1534316521000,
+        "stop" : 1534316531072,
+        "duration" : 10072
+      }
+    } ]
+  },
+  "Registration Page:Test Registration Page - Check for Required Field Validations#Registration Page: Test Registration Page - Check for Required Field Validations" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "62c8e3b2db887ff8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1534316521000,
+        "stop" : 1534316530546,
+        "duration" : 9546
+      }
+    } ]
+  }
+}

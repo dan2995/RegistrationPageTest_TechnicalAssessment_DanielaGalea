@@ -1,0 +1,45 @@
+{
+  "uid" : "6b96305b062ba0a6",
+  "name" : "Registration Page: Test Registration Page - Register Duplicate User",
+  "historyId" : "Registration Page:Test Registration Page - Register Duplicate User#Registration Page: Test Registration Page - Register Duplicate User",
+  "time" : {
+    "start" : 1534316521000,
+    "stop" : 1534316526875,
+    "duration" : 5875
+  },
+  "status" : "failed",
+  "statusMessage" : "expected web page to include \"Logged in as: John Doe\"",
+  "statusTrace" : "expected web page to include \"Logged in as: John Doe\"\n\nScenario Steps:\n\n- I.see(\"Logged in as: John Doe\") at Object.obj.(anonymous function).obj.(anonymous function) [as see] (C:\\Users\\Catania\\AppData\\Roaming\\npm\\node_modules\\codeceptjs\\lib\\actor.js:28:26)\n- I.click(\"//a[@id='registerForm:registerButtonGDPR']\") at Object.obj.(anonymous function).obj.(anonymous function) [as click] (C:\\Users\\Catania\\AppData\\Roaming\\npm\\node_modules\\codeceptjs\\lib\\actor.js:28:26)\n- I.checkOption(\"//input[@id='registerForm:deutscheFootballLiga']\") at Object.obj.(anonymous function).obj.(anonymous function) [as checkOption] (C:\\Users\\Catania\\AppData\\Roaming\\npm\\node_modules\\codeceptjs\\lib\\actor.js:28:26)\n- I.checkOption(\"//input[@id='registerForm:dataProcessing']\") at Object.obj.(anonymous function).obj.(anonymous function) [as checkOption] (C:\\Users\\Catania\\AppData\\Roaming\\npm\\node_modules\\codeceptjs\\lib\\actor.js:28:26)\n- I.fillField(\"//input[@id='registerForm:phoneMobile']\", \"+35679797979\") at Object.obj.(anonymous function).obj.(anonymous function) [as fillField] (C:\\Users\\Catania\\AppData\\Roaming\\npm\\node_modules\\codeceptjs\\lib\\actor.js:28:26)\n- I.fillField(\"//input[@id='registerForm:zipCode']\", \"RBT\") at Object.obj.(anonymous function).obj.(anonymous function) [as fillField] (C:\\Users\\Catania\\AppData\\Roaming\\npm\\node_modules\\codeceptjs\\lib\\actor.js:28:26)\n- I.fillField(\"//input[@id='registerForm:city']\", \"Rabat\") at Object.obj.(anonymous function).obj.(anonymous function) [as fillField] (C:\\Users\\Catania\\AppData\\Roaming\\npm\\node_modules\\codeceptjs\\lib\\actor.js:28:26)\n- I.fillField(\"//input[@id='registerForm:street']\", \"20, Aloha\") at Object.obj.(anonymous function).obj.(anonymous function) [as fillField] (C:\\Users\\Catania\\AppData\\Roaming\\npm\\node_modules\\codeceptjs\\lib\\actor.js:28:26)\n- I.fillField(\"//input[@id='registerForm:birthCity']\", \"Rabat\") at Object.obj.(anonymous function).obj.(anonymous function) [as fillField] (C:\\Users\\Catania\\AppData\\Roaming\\npm\\node_modules\\codeceptjs\\lib\\actor.js:28:26)\n- I.selectOption(\"//select[@id='registerForm:birthCountry']\", \"Malta\") at Object.obj.(anonymous function).obj.(anonymous function) [as selectOption] (C:\\Users\\Catania\\AppData\\Roaming\\npm\\node_modules\\codeceptjs\\lib\\actor.js:28:26)\n- I.selectOption(\"//select[@id='registerForm:nationality']\", \"Malta\") at Object.obj.(anonymous function).obj.(anonymous function) [as selectOption] (C:\\Users\\Catania\\AppData\\Roaming\\npm\\node_modules\\codeceptjs\\lib\\actor.js:28:26)\n- I.selectOption(\"//select[@id='registerForm:day']\", \"2\") at Object.obj.(anonymous function).obj.(anonymous function) [as selectOption] (C:\\Users\\Catania\\AppData\\Roaming\\npm\\node_modules\\codeceptjs\\lib\\actor.js:28:26)\n- I.selectOption(\"//select[@id='registerForm:month']\", \"January\") at Object.obj.(anonymous function).obj.(anonymous function) [as selectOption] (C:\\Users\\Catania\\AppData\\Roaming\\npm\\node_modules\\codeceptjs\\lib\\actor.js:28:26)\n- I.selectOption(\"//select[@id='registerForm:year']\", \"1990\") at Object.obj.(anonymous function).obj.(anonymous function) [as selectOption] (C:\\Users\\Catania\\AppData\\Roaming\\npm\\node_modules\\codeceptjs\\lib\\actor.js:28:26)\n- I.fillField(\"//input[@id='registerForm:lastName']\", \"Doe\") at Object.obj.(anonymous function).obj.(anonymous function) [as fillField] (C:\\Users\\Catania\\AppData\\Roaming\\npm\\node_modules\\codeceptjs\\lib\\actor.js:28:26)\n- I.fillField(\"//input[@id='registerForm:firstName']\", \"John\") at Object.obj.(anonymous function).obj.(anonymous function) [as fillField] (C:\\Users\\Catania\\AppData\\Roaming\\npm\\node_modules\\codeceptjs\\lib\\actor.js:28:26)\n- I.fillField(\"//input[@id='registerForm:passwordConfirm']\", \"Password123\") at Object.obj.(anonymous function).obj.(anonymous function) [as fillField] (C:\\Users\\Catania\\AppData\\Roaming\\npm\\node_modules\\codeceptjs\\lib\\actor.js:28:26)\n- I.fillField(\"//input[@id='registerForm:password']\", \"Password123\") at Object.obj.(anonymous function).obj.(anonymous function) [as fillField] (C:\\Users\\Catania\\AppData\\Roaming\\npm\\node_modules\\codeceptjs\\lib\\actor.js:28:26)\n- I.fillField(\"//input[@id='registerForm:email']\", \"bbbbbbbbbb@test.com\") at Object.obj.(anonymous function).obj.(anonymous function) [as fillField] (C:\\Users\\Catania\\AppData\\Roaming\\npm\\node_modules\\codeceptjs\\lib\\actor.js:28:26)\n- I.fillField(\"//input[@id='registerForm:login']\", \"bbbbbbbbbb\") at Object.obj.(anonymous function).obj.(anonymous function) [as fillField] (C:\\Users\\Catania\\AppData\\Roaming\\npm\\node_modules\\codeceptjs\\lib\\actor.js:28:26)\n- I.selectOption(\"//select[@id='registerForm:country']\", \"Malta\") at Object.obj.(anonymous function).obj.(anonymous function) [as selectOption] (C:\\Users\\Catania\\AppData\\Roaming\\npm\\node_modules\\codeceptjs\\lib\\actor.js:28:26)\n\n",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "resultFormat",
+    "value" : "junit"
+  }, {
+    "name" : "suite",
+    "value" : "Registration Page"
+  }, {
+    "name" : "testClass",
+    "value" : "Test Registration Page - Register Duplicate User"
+  }, {
+    "name" : "package",
+    "value" : "Test Registration Page - Register Duplicate User"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "6b96305b062ba0a6.json",
+  "parameterValues" : [ ]
+}

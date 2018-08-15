@@ -1,0 +1,57 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "Registration Page",
+    "children" : [ {
+      "name" : "Registration Page: Test Registration Page - Success",
+      "uid" : "3bda6ce634b0d387",
+      "parentUid" : "92803fcaab31028d975c086dd3a14feb",
+      "status" : "failed",
+      "time" : {
+        "start" : 1534316521000,
+        "stop" : 1534316528254,
+        "duration" : 7254
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Registration Page: Test Registration Page - Check for Invalid Field Validations",
+      "uid" : "2e90f6aa18d5820e",
+      "parentUid" : "92803fcaab31028d975c086dd3a14feb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1534316521000,
+        "stop" : 1534316531072,
+        "duration" : 10072
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Registration Page: Test Registration Page - Check for Required Field Validations",
+      "uid" : "62c8e3b2db887ff8",
+      "parentUid" : "92803fcaab31028d975c086dd3a14feb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1534316521000,
+        "stop" : 1534316530546,
+        "duration" : 9546
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Registration Page: Test Registration Page - Register Duplicate User",
+      "uid" : "6b96305b062ba0a6",
+      "parentUid" : "92803fcaab31028d975c086dd3a14feb",
+      "status" : "failed",
+      "time" : {
+        "start" : 1534316521000,
+        "stop" : 1534316526875,
+        "duration" : 5875
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "92803fcaab31028d975c086dd3a14feb"
+  } ]
+}

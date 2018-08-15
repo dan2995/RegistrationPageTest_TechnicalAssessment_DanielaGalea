@@ -1,0 +1,69 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "Test Registration Page - Success",
+    "children" : [ {
+      "name" : "Registration Page: Test Registration Page - Success",
+      "uid" : "3bda6ce634b0d387",
+      "parentUid" : "4a3e4300afed57e2bdae4bfb9e141f81",
+      "status" : "failed",
+      "time" : {
+        "start" : 1534316521000,
+        "stop" : 1534316528254,
+        "duration" : 7254
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "4a3e4300afed57e2bdae4bfb9e141f81"
+  }, {
+    "name" : "Test Registration Page - Check for Invalid Field Validations",
+    "children" : [ {
+      "name" : "Registration Page: Test Registration Page - Check for Invalid Field Validations",
+      "uid" : "2e90f6aa18d5820e",
+      "parentUid" : "8dbc4b848fdf44e2e19c0ec34fa06866",
+      "status" : "passed",
+      "time" : {
+        "start" : 1534316521000,
+        "stop" : 1534316531072,
+        "duration" : 10072
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "8dbc4b848fdf44e2e19c0ec34fa06866"
+  }, {
+    "name" : "Test Registration Page - Check for Required Field Validations",
+    "children" : [ {
+      "name" : "Registration Page: Test Registration Page - Check for Required Field Validations",
+      "uid" : "62c8e3b2db887ff8",
+      "parentUid" : "03ac981422793e1d4bb3f4b34926c023",
+      "status" : "passed",
+      "time" : {
+        "start" : 1534316521000,
+        "stop" : 1534316530546,
+        "duration" : 9546
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "03ac981422793e1d4bb3f4b34926c023"
+  }, {
+    "name" : "Test Registration Page - Register Duplicate User",
+    "children" : [ {
+      "name" : "Registration Page: Test Registration Page - Register Duplicate User",
+      "uid" : "6b96305b062ba0a6",
+      "parentUid" : "6760c660de24de7192aef0e6059f8970",
+      "status" : "failed",
+      "time" : {
+        "start" : 1534316521000,
+        "stop" : 1534316526875,
+        "duration" : 5875
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "6760c660de24de7192aef0e6059f8970"
+  } ]
+}
