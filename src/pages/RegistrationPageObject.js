@@ -59,7 +59,7 @@ module.exports = {
 		I.selectOption(this.userDetails.nationality, userDetails.nationality);
 		I.selectOption(this.userDetails.countryOfBirth, userDetails.countryOfBirth);
 		I.fillField(this.userDetails.cityOfBirth, userDetails.cityOfBirth);
-    },
+	},
   
   	fillContactDetails(contactDetails){
 		I.fillField(this.contactDetails.streetAndHouseNo, contactDetails.streetAndHouseNo);

@@ -82,4 +82,4 @@ Feature('Registration Page');
 
 	function getJSONObjectFromJSONFile(filePath){
 		return require(filePath);
-    };
+	};
