@@ -16,20 +16,20 @@ Feature('Registration Page');
 		I.see('Log out');
 
 		//Make sure details of registered user match those which were specified
-        HomePageObject.clickPersonalDetails();
-        I.see(user_success.username);
-        I.see(user_success.title);
-        I.see(user_success.firstName);
-        I.see(user_success.lastName);
-        I.see(user_success.dateOfBirthDay + '.01.' + user_success.dateOfBirthYear);
-        I.see(user_success.email);
-        I.see(user_success.streetAndHouseNo);
-        I.see(user_success.postcode);
-        I.see(user_success.countryOfBirth);
-        I.see(user_success.city);
-        I.see(user_success.nationality);
-        I.see(user_success.cityOfBirth);
-        I.see(user_success.mobilePhone);
+		HomePageObject.clickPersonalDetails();
+		I.see(user_success.username);
+		I.see(user_success.title);
+		I.see(user_success.firstName);
+		I.see(user_success.lastName);
+		I.see(user_success.dateOfBirthDay + '.01.' + user_success.dateOfBirthYear);
+		I.see(user_success.email);
+		I.see(user_success.streetAndHouseNo);
+		I.see(user_success.postcode);
+		I.see(user_success.countryOfBirth);
+		I.see(user_success.city);
+		I.see(user_success.nationality);
+		I.see(user_success.cityOfBirth);
+		I.see(user_success.mobilePhone);
 	});
 
 	Scenario('Test Registration Page - Register Duplicate User', (I, RegistrationPageObject, HomePageObject) => {
@@ -50,10 +50,10 @@ Feature('Registration Page');
 	});
 
 	Scenario('Test Registration Page - Check for Required Field Validations', (I, RegistrationPageObject) => {
-        RegistrationPageObject.clickStoreDetails();
+		RegistrationPageObject.clickStoreDetails();
 
-        //Assert for error message since required fields were left empty
-     	I.see('The form hasn\'t been completed properly. Please look again at the boxes marked as incorrect in the form.');
+		//Assert for error message since required fields were left empty
+		I.see('The form hasn\'t been completed properly. Please look again at the boxes marked as incorrect in the form.');
 		I.see('"Username" is required.');
 		I.see('"E-mail" is required.');
 		I.see('"Password" is required.');
@@ -67,12 +67,12 @@ Feature('Registration Page');
 	});
 
 	Scenario('Test Registration Page - Check for Invalid Field Validations', (I, RegistrationPageObject) => {
-        const invalid_user = getJSONObjectFromJSONFile("./testData/invalid_user_1.json");
-        RegistrationPageObject.registerUser(invalid_user);
+		const invalid_user = getJSONObjectFromJSONFile("./testData/invalid_user_1.json");
+		RegistrationPageObject.registerUser(invalid_user);
 
 		//Assert for error message since fields were filled with invalid data
-        I.see('The form hasn\'t been completed properly. Please look again at the boxes marked as incorrect in the form.');
-        I.see('Username must be 5 to 25 characters long.');
+		I.see('The form hasn\'t been completed properly. Please look again at the boxes marked as incorrect in the form.');
+		I.see('Username must be 5 to 25 characters long.');
 		I.see('Email address is not valid.');
 		I.see('Password needs to be a mix of letters and numbers.');
 		I.see('Please use only letters (a-z).');
@@ -81,5 +81,5 @@ Feature('Registration Page');
 	});
 
 	function getJSONObjectFromJSONFile(filePath){
-    	return require(filePath);
+		return require(filePath);
     };

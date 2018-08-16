@@ -33,7 +33,7 @@ module.exports = {
 	
 	checkboxes: {
 	  	promotionalEmails: "//input[@id='registerForm:dataProcessing']",
-      	receiveNewsletter: "//input[@id='registerForm:deutscheFootballLiga']"
+		receiveNewsletter: "//input[@id='registerForm:deutscheFootballLiga']"
 	},
 	
 	storeDetailsButton: "//a[@id='registerForm:registerButtonGDPR']",
@@ -56,7 +56,7 @@ module.exports = {
 		I.selectOption(this.userDetails.dateOfBirthYear, userDetails.dateOfBirthYear);
 		I.selectOption(this.userDetails.dateOfBirthMonth, userDetails.dateOfBirthMonth);
 		I.selectOption(this.userDetails.dateOfBirthDay, userDetails.dateOfBirthDay);
-        I.selectOption(this.userDetails.nationality, userDetails.nationality);
+		I.selectOption(this.userDetails.nationality, userDetails.nationality);
 		I.selectOption(this.userDetails.countryOfBirth, userDetails.countryOfBirth);
 		I.fillField(this.userDetails.cityOfBirth, userDetails.cityOfBirth);
     },
@@ -84,9 +84,9 @@ module.exports = {
   
  	registerUser(userData){
 		this.fillAccountDetails(userData);
-        this.fillUserDetails(userData);
-        this.fillContactDetails(userData);
-        this.tickCheckboxes(userData);
+		this.fillUserDetails(userData);
+		this.fillContactDetails(userData);
+		this.tickCheckboxes(userData);
 		this.clickStoreDetails();
  	}
 }
